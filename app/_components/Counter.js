@@ -8,7 +8,7 @@ export default function Counter({ users }) {
   return (
     <div>
       <p>There are {users.length} users</p>
-      <button onClick={() => setCount((c) => c + 1)}>{count}</button>;
+      <button onClick={() => setCount((c) => c + 1)}>{count}</button>
     </div>
   );
 }

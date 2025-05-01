@@ -9,9 +9,9 @@ function Logo() {
       <Image
         src={logo}
         height="60"
+        quality={100}
         width="60"
         alt="The Wild Oasis logo"
-        quality={100}
       />
       <span className="text-xl font-semibold text-primary-100">
         The Wild Oasis

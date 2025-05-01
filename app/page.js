@@ -10,7 +10,7 @@ export default function Page() {
         fill
         placeholder="blur"
         quality={80}
-        className="objet-cover object-top"
+        className="object-cover object-top"
         alt="Mountains and forests with two cabins"
       />
 
