@@ -9,7 +9,6 @@ export const metadata = {
 export default async function Page() {
   console.log("Starting");
   const cabins = await getCabins();
-  console.log(cabins);
 
   return (
     <div>
