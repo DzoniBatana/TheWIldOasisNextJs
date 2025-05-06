@@ -3,7 +3,7 @@ import CabinList from "../_components/CabinList";
 import Spinner from "../_components/Spinner";
 
 // this is in normal sitation
-//export const revalidate = 3600;
+export const revalidate = 3600;
 //export const revalidate = 15;
 
 export const metadata = {
