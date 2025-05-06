@@ -6,6 +6,7 @@ export async function generateMetadata({ params }) {
   const { name } = await getCabin(params.cabinId);
   return { title: `Cabin ${name}` };
 }
+9;
 
 export async function generateStaticParams() {
   const cabins = await getCabins();
